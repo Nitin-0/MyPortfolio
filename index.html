@@ -154,7 +154,7 @@
                 <a href="https://drive.google.com/file/d/1fXBXnLg2nWBLgJ-oLT0kg2Eu5nJ-KuU9/view" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
-                <form name="submit-to-google-sheet">
+                <form method="post" action="https://script.google.com/macros/s/AKfycby6aUDF9H7BrUZ4ZFL2xnWWKBLKwek8Kcm_E660yMYegyNZ6DTNZVAL9j4-KpCgM-ST/exec" name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -197,7 +197,7 @@ function closemenu(){
 </script>
     
 <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwAYACiccYBHYGhNLFH5jvi7eSKHtZ-hLkuSfoMn3TWoOuJ2BI1jhDODCXb8dmbrG5ORg/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby6aUDF9H7BrUZ4ZFL2xnWWKBLKwek8Kcm_E660yMYegyNZ6DTNZVAL9j4-KpCgM-ST/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
 
